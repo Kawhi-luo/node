@@ -10,7 +10,7 @@ Base.prototype.showName = function(){
 	console.log(this.name);
 }
 
-function sub(){
+function Sub(){
 	this.name = 'sub';
 }
 util.inherits(Sub,Base);
